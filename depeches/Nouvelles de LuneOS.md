@@ -43,20 +43,32 @@ Cependant webOS-OSE fournit son propre moteur basé sur chromium, indépendant d
 
 ## Migration générale vers les composants de webOS-OSE
 
-Plus généralement, 
+Plus généralement, les composants hérités de feu Open WebOS ont été remplacés par leur équivalent dans webOS-OSE, plus récents et encore maintenus par LG. Pour cette version de LuneOS, la [version 2.23.0 de webOS-OSE](https://www.webosose.org/blog/2023/09/07/webos-ose-2-23-0-release/) est utilisée comme base.
+Cette migration inclut notamment l'utilisation des "Enhanced ACG", un modèle de sécurité plus efficace utilisé pour la communication entre les services de webOS et les apps.
 
-* We are now using LG's WAM (WebAppManager) instead of our own custom one together with LG's fork of Chromium (94).
-* A major rebase of all components shared with webOS OSE to be based on the webOS OSE release 2.23.0 now. [ https://www.webosose.org/blog/2023/09/07/webos-ose-2-23-0-release/ ]
-* This included a migration to Enhanced ACG which provides a lot tighter security for LS2 calls from apps and services.
+Ces changements, qui pour la plupart ne sont pas visibles des utilisateurs, apportent de multiples bénéfices pour LuneOS et ses développeurs:
+* une réutilisation plus large du code de webOS-OSE (maintenu par LG), ce qui implique moins de maintenance côté webOS-ports
+* meilleure stabilité des composants, qui sont utilisés depuis des années dans les télévieurs et appareils LG
+* la rétro-compatibilité a tout de même pu être assurée pour les vieilles apps webOS, grâce à des modifications mineures dans certains composants
+* plus de facilité pour mettre à jour les composants venant de webOS-OSE
 
-This all was an enormous amount of work behind the screens but little visible to the end user, however this does offer clear benefits going forward being:
+# Téléphones et tablettes: vers plus de Linux "mainline"
 
-* A shared code-base with LG, which means less custom components and maintenance.
-* Years of field tested code on LG production devices which offers more stability.
-* In this process we were able to keep backwards compatibility for apps and services.
-* Easier to upgrade to latest OSE components, since we have migrated almost all remaining components that were still not based on the latest webOS OSE or on Open webOS (125 components were migrated in total, 15 components are still to be migrated).
+Dans le domaine des distribution Linux pour téléphones et tablettes, on parle de noyau "mainline" pour désigner l'utilisation directe du code source venant du noyau Linux, par opposition à l'utilisation d'un code source dérivé et proposé par un constructeur. Ce dernier est souvent proposé dans une vieille version, avec une maintenance très limitée dans le temps.
 
-In the meanwhile we have also been working hard to support the newly released Pine64 [ https://pine64.org/devices/#_phones_and_tablets ] devices such as the PinePhone, PinePhonePro and PineTab2 which are affordable devices which can run a very close to mainline kernel and a multitude of OS-es. We now support booting off tow-boot on Pinephone. [ https://pine64.org/documentation/PinePhone_Pro/Software/Bootloaders/ ]
+Cependant, utiliser un noyau "mainline" est à double tranchant: d'un côté, on bénéficie des dernières avancées du noyau, et des dernières version des pilotes libres. Mais de l'autre, cela signifie devoir se passer des pilotes proposés par le constructeur (pour le son, le GPS, le modem...), qui souvent n'ont jamais été proposés à l'inclusion dans le code source principal de Linux.
+
+Au final, dans le cas de LuneOS, 3 voies se dessinent lorsqu'il s'agit de faire tourner l'OS sur un téléphone ou une tablette:
+1. le constructeur remonte ses changements dans le noyau Linux, et s'appuie sur un développement open-source: Pine64 et Purism sont deux exemples récents de cette approche. C'est le cas idéal pour LuneOS, où des pilotes open-source bien intégrés peuvent être utilisées pour faire fonctionner les composants matériels.
+2. le constructeur ne propose qu'une version Android de ses pilotes et du noyau; ce dernier reste figé dans une même version, _relativement récente_, avec une maintenance minimale. LuneOS va alors utiliser Halium pour profiter des pilotes faits pour Android, tout en gardant le reste du système sur une pile logicielle "systemd/glibc" classique. Cette situation reste très présente, car l'immense majorité des téléphones et tablettes du marché tournent sur Android.
+3. le constructeur propose une vieille version du noyau, non maintenue, et dont les limitations deviennent problématiques pour LuneOS. Dans ce cas, LuneOS va tenter d'utiliser un noyau plus récent, mais qui a un support partielle du matériel. Cette stratégie a souvent un résultat très mitigé, avec de gros manques fonctionnels. En gros, c'est la tentative de la dernière chance avant l'abandon du support de ce matériel.
+
+## Le matériel Pine64
+
+Comme évoqué plus haut, Pine64 cultive ses liens avec la communauté open-source, et incite les développeurs à proposer leurs OS sur leur matériel. On retrouve ainsi de nombreux OS comme PostmarketOS, Plasma Mobile ou encore Ubuntu Touch. LuneOS a pris le train en marche très tôt, et peut aujourd'hui s'installer sur le Pinephone, le Pinephone Pro ainsi que sur la tablette PineTab 2.
+Pour le Pinephone et le Pinephone Pro, LuneOS nécessite maintenant l'installation préalable de [Tow-boot](https://pine64.org/documentation/PinePhone_Pro/Software/Bootloaders) sur le téléphone. Ce dernier est un dérivé de U-Boot, qui vise à standardiser et faciliter le démarrage des OS sur du matériel embarqué.
+
+Comme ce matériel tourne avec une version très récente du noyau Linux, il est possible pour LuneOS de lancer Waydroid; cependant cette fonctionnalité nécessite encore beaucoup de travail.
 
 The new close to mainline kernel for the Pine64 devices allows them to run things like Waydroid out of the box! [ https://waydro.id/ ]
 
