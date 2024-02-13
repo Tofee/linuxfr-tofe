@@ -1,7 +1,9 @@
-Des nouvelles de LuneOS
-=======================
+LuneOS: venez prendre un café glacé ?
+=====================================
 
-Voici [bien longtemps](https://linuxfr.org/news/luneos-doppio-est-sortie) que l'équipe de webOS-ports n'avait fait de [nouvelle version de LuneOS](https://pivotce.com/2019/10/24/luneos-october-stable-release-eggnog-latte/). De nombreux changements de fond, de nouveaux téléphones et tablettes, des difficultés techniques mais aussi une petite équipe de développeurs expliquent ce développement qui avance selon le temps libre de chacun.
+LuneOS « Eiskaffe » vient de sortir !
+
+Voici [bien longtemps](https://linuxfr.org/news/luneos-doppio-est-sortie) que l'équipe de webOS-ports n'avait fait de [nouvelle version de LuneOS](https://pivotce.com/2019/10/24/luneos-october-stable-release-eggnog-latte/). De nombreux changements de fond, de nouveaux téléphones et tablettes, des difficultés techniques mais aussi une petite équipe de développeurs expliquent ce rythme de développement qui avance selon le temps libre de chacun.
 
 Pendant ce temps, des versions de test de LuneOS ont été régulièrement mises à disposition sur Github, dans le [dépôt "luneos-testing"](https://github.com/webOS-ports/luneos-testing). Cela permet aux personnes intéressées d'essayer LuneOS, tout en gardant à l'esprit que ce ne sont que des versions intermédiaires.
 
