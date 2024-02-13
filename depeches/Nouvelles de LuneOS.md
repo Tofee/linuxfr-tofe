@@ -1,5 +1,5 @@
-LuneOS: venez prendre un café glacé ?
-=====================================
+LuneOS: tentés par un café glacé ?
+==================================
 
 LuneOS « Eiskaffe » vient de sortir !
 
