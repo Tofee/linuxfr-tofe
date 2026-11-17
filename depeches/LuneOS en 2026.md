@@ -63,7 +63,7 @@ Fort de ce succès, on (enfin, surtout celui qui utilise l'IA) va s'attaquer au 
 * Gestion de l'eSIM
 * etc
 
-Le portage vers de nouveaux smartphones est maintenant grandement simplifié, car LuneOS arrive à deviner la plupart des caractérisques dynamiquement. Une image Halium "GSI" (Generic System Image) de LuneOS peut maintenant être utilisée avec la plupart des smartphone Android. C'est ainsi qu'on a pu [porter le nombre de portages réussis à environ 25](https://webos-ports.org/#devices), un joli nombre comparé à avant !
+Le portage vers de nouveaux smartphones est maintenant grandement simplifié, car LuneOS arrive à deviner la plupart des caractérisques dynamiquement. Une image Halium "GSI" (Generic System Image) de LuneOS peut maintenant être utilisée avec la plupart des smartphone Android. C'est ainsi qu'on a pu [amener le nombre de portages réussis à environ 25](https://webos-ports.org/#devices), un joli nombre comparé à avant !
 
 <img width="512" height="278" alt="image" src="https://github.com/user-attachments/assets/f81a89bd-2af0-4111-8595-cbb23c1b9e86" />
 
@@ -71,7 +71,7 @@ Au bout de quelques mois, on commence à voir le bout du tunnel, et la plupart d
 
 ### De nouveaux serveurs pour nos builds
 
-Cette année nous avons postulé à plusieurs offres de "bourses", qui se présentent sous la forme de serveurs pour la compilation de LuneOS. Et par chance, la réponse a été positive pour l'Université de l'Etat de l'Oregon (Oregon State University Open Source Lab) ! La mise en route du serveur est encore en cours, mais nous ainsi des machines plus confortables pour effectuer nos compilations, qui peuvent être très exigeantes. Merci à eux pour leur soutien !
+Cette année nous avons postulé à plusieurs offres de "bourses", qui se présentent sous la forme de serveurs pour la compilation de LuneOS. Et par chance, la réponse a été positive pour l'Université de l'Etat de l'Oregon (Oregon State University Open Source Lab) ! La mise en route du serveur est encore en cours, mais nous aurons ainsi des machines plus confortables pour effectuer nos compilations, qui peuvent être très exigeantes. Merci à eux pour leur soutien !
 
 ### Un nouveau téléphone de test
 
