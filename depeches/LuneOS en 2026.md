@@ -5,7 +5,7 @@ LuneOS en 2026
 
 En [Février 2024]([url](https://linuxfr.org/news/sortie-de-luneos-eiskaffee)), je vous parlais de la sortie de LuneOS « Eiskaffe ». Dans cette version, les principales nouveautés concernaient le rafraîchissement de nos frameworks (notamment le passage de Qt5 à Qt6), la réutilisation de briques venant de webOS OSE (publié par LG), et l'accent mis sur les noyaux "mainline".
 
-Depuis, les avancées ont été irrégulières, et se sont franchement accélérées cette année.
+Depuis, les avancées ont été irrégulières, mais ont accéléré franchement cette année.
 
 <img width="328" height="152" alt="logo LuneOS" src="https://github.com/user-attachments/assets/4b252343-cb30-43f8-ad95-7bad6b498e56" />
 
@@ -40,7 +40,7 @@ Début 2025, j'abandonne: j'ai appris plein de choses (faire un device tree pour
 
 ## Période de doutes
 
-Pendant l'année 2025, du coup, bien peu de choses se passent: peu de temps libre, et une motivation en berne avec l'abandon de webOS OSE et l'échec sur la HP Touchpad. Nous somme alors environ 3 personnes à discuter sur IRC sur le projet, ça s'annonce mal pour la suite.
+Pendant l'année 2025, les choses avancent assez lentement: peu de temps libre, et une motivation en berne avec l'abandon de webOS OSE et l'échec sur la HP Touchpad. Nous somme alors environ 3 personnes à discuter sur IRC sur le projet, ça s'annonce mal pour la suite.
 
 ## Puis arrive 2026
 
