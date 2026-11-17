@@ -7,6 +7,8 @@ En [Février 2024]([url](https://linuxfr.org/news/sortie-de-luneos-eiskaffee)), 
 
 Depuis, les avancées ont été irrégulières, et se sont franchement accélérées cette année.
 
+<img width="328" height="152" alt="logo LuneOS" src="https://github.com/user-attachments/assets/4b252343-cb30-43f8-ad95-7bad6b498e56" />
+
 ### Petits rappels
 
 LuneOS est une distribution GNU/Linux pour téléphones mobiles et tablettes, héritière de feu webOS. 
@@ -61,6 +63,10 @@ Fort de ce succès, on (enfin, surtout celui qui utilise l'IA) va s'attaquer au 
 * Gestion de l'eSIM
 * etc
 
+Le portage vers de nouveaux smartphones est maintenant grandement simplifié, car LuneOS arrive à deviner la plupart des caractérisques dynamiquement. Une image "GSI" (Generic System Image) de LuneOS peut maintenant être utilisée avec la plupart des smartphone Android. C'est ainsi qu'on a pu [porter le nombre de portages réussis à environ 25]([url](https://webos-ports.org/#devices)), un joli nombre comparé à avant !
+
+<img width="512" height="278" alt="image" src="https://github.com/user-attachments/assets/f81a89bd-2af0-4111-8595-cbb23c1b9e86" />
+
 Au bout de quelques mois, on commence à voir le bout du tunnel, et la plupart des problèmes connus sont corrigés. Il est temps de se recentrer sur l'aspect logiciel.
 
 ### De nouveaux serveurs pour nos builds
@@ -93,7 +99,11 @@ webOS, c'est aussi une identité visuelle, et une ergonomie souvent bien pensée
 
 Pour les plus nostalgiques, nous avons aussi changé le clavier virtuel par défaut pour nous rapprocher du clavier du Palm Pre:
 
-<img width="360" height="229" alt="image" src="https://github.com/user-attachments/assets/cc27448f-999d-4e9b-b6ea-574cebf28df0" />
+<img width="360" height="229" alt="clavier virtuel inspiré du Palm Pre" src="https://github.com/user-attachments/assets/cc27448f-999d-4e9b-b6ea-574cebf28df0" />
+
+### Site web rafraîchi
+
+Nous avons également retravaillé notre vieux site web, qui est maintenant accessible sur [luneos.org]([url](https://luneos.org/)). On y a rajouté de la [documentation technique]([url](https://webos-ports.org/architecture/)), des pointeurs vers les communautés LuneOS et webOS...
 
 ## L'heure du bilan
 
