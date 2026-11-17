@@ -47,7 +47,7 @@ Une de ces trois personne va revenir avec un nouveau jouet: il a pris un abonnem
 Dans les premiers jours, je le vois ainsi tomber dans les mêmes pièges que moi: flux UART instable, DMA mal configurée, device tree bancal. Puis il continue à faire itérer l'outil, le guide dans les différentes explorations, essai après essai. Au bout d'une semaine, la DMA se met à fonctionner correctement. Quelques jours plus tard, on a un pilote pour le touchscreen. 
 Il va alors se pencher successivement sur le pilote wifi, bluetooth, le GPU, la pile USB, la gestion de la batterie... tous tombent les uns après les autres, itération après itération. Claude va compiler un noyau, le pousser sur la tablette avec un script initrd dédié à l'itération, puis redémarrer la tablette et extraire les logs. Ce qui m'avait épuisé pendant des mois, il le fait en quelques heures.
 
-Vers la fin du mois de janvier 2025, on a donc une tablette HP Touchpad fonctionnelle sur [noyau linux 6.18]([url](https://github.com/shr-distribution/linux/tree/tenderloin/6.18/upstream-patches)). Deux mois, 40 dollars et quelques bébés phoques auront été le prix de cette impressionnante avancée.
+Vers la fin du mois de janvier 2026, on a donc une tablette HP Touchpad fonctionnelle sur [noyau linux 6.18]([url](https://github.com/shr-distribution/linux/tree/tenderloin/6.18/upstream-patches)). Deux mois, 40 dollars et quelques bébés phoques auront été le prix de cette impressionnante avancée.
 
 ## On accélère sur la gestion du matériel
 
