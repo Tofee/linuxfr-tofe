@@ -91,6 +91,8 @@ Jusqu'à récemment sur LuneOS, on pouvait fusionner des comptes CalDAV, et des 
 * des comptes de streaming audio comme Spotify ou Qobuz
 * des comptes de gallerie d'image comme PhotoPrism ou piGallery2
 
+<img width="180" height="400" alt="Capture de Accounts 1" src="https://raw.githubusercontent.com/Tofee/linuxfr-tofe/main/depeches/images/Accounts_1.png" /> <img width="180" height="400" alt="Capture de Accounts 2" src="https://raw.githubusercontent.com/Tofee/linuxfr-tofe/main/depeches/images/Accounts_2.png" /> <img width="180" height="400" alt="Capture de Accounts 3" src="https://raw.githubusercontent.com/Tofee/linuxfr-tofe/main/depeches/images/Accounts_3.png" /> 
+
 Tout cela est géré à travers un framework unifié, et des applications "Photos", "Musique" ou "Messages" deviennent alors complètement génériques. On a pu aussi, très facilement, implémenter une fonctionnalité de sauvegarde qui va stocker/restaurer tous ces comptes avec un fichier chiffré.
 
 ### Le look & feel
