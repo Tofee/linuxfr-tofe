@@ -65,7 +65,7 @@ Au bout de quelques mois, on commence à voir le bout du tunnel, et la plupart d
 
 ### De nouveaux serveurs pour nos builds
 
-Cette année nous avons postulé à plusieurs offres de "bourses", qui se présentent sous la forme de serveurs pour la compilation de LuneOS. Et par chance, la réponse a été positive pour l'Université de l'Etat de l'Oregon (Oregon State University Open Source Lab) ! La mise à disposition du serveur est encore en cours, mais nous ainsi des machines plus confortables pour effectuer nos compilations, qui peuvent être très exigeantes. Merci à eux pour leur soutien !
+Cette année nous avons postulé à plusieurs offres de "bourses", qui se présentent sous la forme de serveurs pour la compilation de LuneOS. Et par chance, la réponse a été positive pour l'Université de l'Etat de l'Oregon (Oregon State University Open Source Lab) ! La mise en route du serveur est encore en cours, mais nous ainsi des machines plus confortables pour effectuer nos compilations, qui peuvent être très exigeantes. Merci à eux pour leur soutien !
 
 ### Un nouveau téléphone de test
 
