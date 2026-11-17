@@ -3,7 +3,7 @@ LuneOS en 2026
 
 ## 3 ans déjà...
 
-En [Février 2024]([url](https://linuxfr.org/news/sortie-de-luneos-eiskaffee)), je vous parlais de la sortie de LuneOS « Eiskaffe ». Dans cette version, les principales nouveautés concernaient le rafraîchissement de nos frameworks (notamment le passage de Qt5 à Qt6), la réutilisation de briques venant de webOS OSE (publié par LG), et l'accent mis sur les noyaux "mainline".
+En [Février 2024](https://linuxfr.org/news/sortie-de-luneos-eiskaffee), je vous parlais de la sortie de LuneOS « Eiskaffe ». Dans cette version, les principales nouveautés concernaient le rafraîchissement de nos frameworks (notamment le passage de Qt5 à Qt6), la réutilisation de briques venant de webOS OSE (publié par LG), et l'accent mis sur les noyaux "mainline".
 
 Depuis, les avancées ont été irrégulières, mais ont accéléré franchement cette année.
 
@@ -49,7 +49,7 @@ Une de ces trois personne va revenir avec un nouveau jouet: il a pris un abonnem
 Dans les premiers jours, je le vois ainsi tomber dans les mêmes pièges que moi: flux UART instable, DMA mal configurée, device tree bancal. Puis il continue à faire itérer l'outil, le guide dans les différentes explorations, essai après essai. Au bout d'une semaine, la DMA se met à fonctionner correctement. Quelques jours plus tard, on a un pilote pour le touchscreen. 
 Il va alors se pencher successivement sur le pilote wifi, bluetooth, le GPU, la pile USB, la gestion de la batterie... tous tombent les uns après les autres, itération après itération. Claude va compiler un noyau, le pousser sur la tablette avec un script initrd dédié à l'itération, puis redémarrer la tablette et extraire les logs. Ce qui m'avait épuisé pendant des mois, il le fait en quelques heures.
 
-Vers la fin du mois de janvier 2026, on a donc une tablette HP Touchpad fonctionnelle sur [noyau linux 6.18]([url](https://github.com/shr-distribution/linux/tree/tenderloin/6.18/upstream-patches)). Deux mois, 40 dollars et quelques bébés phoques auront été le prix de cette impressionnante avancée.
+Vers la fin du mois de janvier 2026, on a donc une tablette HP Touchpad fonctionnelle sur [noyau linux 6.18](https://github.com/shr-distribution/linux/tree/tenderloin/6.18/upstream-patches). Deux mois, 40 dollars et quelques bébés phoques auront été le prix de cette impressionnante avancée.
 
 ## On accélère sur la gestion du matériel
 
@@ -63,7 +63,7 @@ Fort de ce succès, on (enfin, surtout celui qui utilise l'IA) va s'attaquer au 
 * Gestion de l'eSIM
 * etc
 
-Le portage vers de nouveaux smartphones est maintenant grandement simplifié, car LuneOS arrive à deviner la plupart des caractérisques dynamiquement. Une image "GSI" (Generic System Image) de LuneOS peut maintenant être utilisée avec la plupart des smartphone Android. C'est ainsi qu'on a pu [porter le nombre de portages réussis à environ 25]([url](https://webos-ports.org/#devices)), un joli nombre comparé à avant !
+Le portage vers de nouveaux smartphones est maintenant grandement simplifié, car LuneOS arrive à deviner la plupart des caractérisques dynamiquement. Une image Halium "GSI" (Generic System Image) de LuneOS peut maintenant être utilisée avec la plupart des smartphone Android. C'est ainsi qu'on a pu [porter le nombre de portages réussis à environ 25](https://webos-ports.org/#devices), un joli nombre comparé à avant !
 
 <img width="512" height="278" alt="image" src="https://github.com/user-attachments/assets/f81a89bd-2af0-4111-8595-cbb23c1b9e86" />
 
@@ -103,7 +103,7 @@ Pour les plus nostalgiques, nous avons aussi changé le clavier virtuel par déf
 
 ### Site web rafraîchi
 
-Nous avons également retravaillé notre vieux site web, qui est maintenant accessible sur [luneos.org]([url](https://luneos.org/)). On y a rajouté de la [documentation technique]([url](https://webos-ports.org/architecture/)), des pointeurs vers les communautés LuneOS et webOS...
+Nous avons également retravaillé notre vieux site web, qui est maintenant accessible sur [luneos.org](https://luneos.org/). On y a rajouté de la [documentation technique](https://webos-ports.org/architecture/), des pointeurs vers les communautés LuneOS et webOS...
 
 ## L'heure du bilan
 
@@ -114,6 +114,8 @@ Autant que possible, si on voit qu'une de nos corrections ou améliorations pour
 ### La baleine sous le caillou
 
 Le LuneOS de 2026 est maintenant un projet où l'IA a changé beaucoup de choses, en bien comme en mal. On a pu corriger énormément de problèmes et rajouter beaucoup de fonctionnalités, par contre cela s'est fait au prix d'une complexification du code. Mais le code de LuneOS était déjà vaste avant 2026, et les contributions étant faites par quelqu'un connaissant très bien le projet, les changements apportés s'intègre encore assez bien dans l'existant.
+
+Notons aussi qu'on ne lance pas l'IA sur un problème à l'aveugle, on essaie de capitaliser sur ce qui a été déjà résolu. Ainsi on a mis en place un [dépôt MCP](https://github.com/webOS-ports/luneos-porting-mcp) pour que tout un chacun en profite, et ne gaspille pas des tokens pour rien. En soi ce dépôt peut être aussi intéressant pour un développeur qui souhaite en savoir plus sur le déroulement d'un portage LuneOS.
 
 L'utilisation de l'IA peut rebuter des contributeurs comme des utilisateurs, par exemple pour des raisons éthiques et environnementales. Personnellement, fin 2025 je pensais que LuneOS était terminé, nous n'étions plus assez nombreux et avec le retrait de LG il fallait maintenir bien plus de composants qu'avant. Donc si vous voulez installer ce que LuneOS aurait été en 2026 sans l'IA, c'est simple: il suffit d'installer la version de 2025. L'arrivée de l'IA a permis de redonner une chance au projet, même si on doit encore voir sur le moyen terme ce que ça va donner.
 
