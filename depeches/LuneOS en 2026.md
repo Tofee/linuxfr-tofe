@@ -12,7 +12,7 @@ Depuis, les avancées ont été irrégulières, et se sont franchement accélér
 LuneOS est une distribution GNU/Linux pour téléphones mobiles et tablettes, héritière de feu webOS. 
 Le projet est porté par l’équipe webOS-Ports, dont le but est de faire revivre webOS sur les matériels contemporains.
 
-Le projet s’appuie sur Yocto, Halium et SHR. Il utilise OpenEmbedded comme environnement de compilation. Cette dernière version de LuneOS se base sur la version « Kirkstone » de Yocto.
+Le projet s’appuie sur Yocto, Halium et SHR. Il utilise OpenEmbedded comme environnement de compilation. Cette dernière version de LuneOS se base sur la version « Wrynose » de Yocto.
 
 À l’exception des blobs utilisés pour faire tourner les pilotes Android, l’ensemble de la distribution est libre : chacun peut, s’il le veut, recompiler sa propre image chez lui.
 
@@ -42,7 +42,7 @@ Pendant l'année 2025, du coup, bien peu de choses se passent: peu de temps libr
 
 ## Puis arrive 2026
 
-Une de ces trois personne va revenir avec un nouveau jouet: il a pris un abonnement avec Claude, et il veut voir si on peut l'utiliser pour faire marcher la HP Touchpad avec noyau dernier cri. Il ne sait pas vraiment programmer, mais il connait webOS par coeur et c'est un geek très doué en bidouillages divers et variés.
+Une de ces trois personne va revenir avec un nouveau jouet: il a pris un abonnement avec Claude, et il veut voir si on peut l'utiliser pour faire marcher la HP Touchpad avec noyau dernier cri. Il connait webOS et LuneOS par coeur et même si la programmation n'est pas son domaine d'expertise il se débrouille très bien face à des situations techniques complexes.
 
 Dans les premiers jours, je le vois ainsi tomber dans les mêmes pièges que moi: flux UART instable, DMA mal configurée, device tree bancal. Puis il continue à faire itérer l'outil, le guide dans les différentes explorations, essai après essai. Au bout d'une semaine, la DMA se met à fonctionner correctement. Quelques jours plus tard, on a un pilote pour le touchscreen. 
 Il va alors se pencher successivement sur le pilote wifi, bluetooth, le GPU, la pile USB, la gestion de la batterie... tous tombent les uns après les autres, itération après itération. Claude va compiler un noyau, le pousser sur la tablette avec un script initrd dédié à l'itération, puis redémarrer la tablette et extraire les logs. Ce qui m'avait épuisé pendant des mois, il le fait en quelques heures.
