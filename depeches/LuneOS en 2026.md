@@ -121,4 +121,17 @@ Notons aussi qu'on ne lance pas l'IA sur un problème à l'aveugle, on essaie de
 
 L'utilisation de l'IA peut rebuter des contributeurs comme des utilisateurs, par exemple pour des raisons éthiques et environnementales. Personnellement, fin 2025 je pensais que LuneOS était terminé, nous n'étions plus assez nombreux et avec le retrait de LG il fallait maintenir bien plus de composants qu'avant. Donc si vous voulez installer ce que LuneOS aurait été en 2026 sans l'IA, c'est simple: il suffit d'installer la version de 2025. L'arrivée de l'IA a permis de redonner une chance au projet, même si on doit encore voir sur le moyen terme ce que ça va donner.
 
+## Ce qui nous attends ensuite
+
+### Montée en puissance des machines de build
+
+On devra décider comment exploiter au mieux ces belles machines qu'on nous prête pour effectuer nos grosses compilations de LuneOS. Je ne m'inquiète pas trop sur ce point, c'est plus un cadeau qu'un problème :)
+
+### Tester tout ça en profondeur
+
+Après ces nombreux nouveaux ajouts et changements, il faudra mettre l'accent sur la stabilité et les tests manuels. On vérifie régulièrement sur l'appareil ce que donne une modification, mais on trouve toujours des scénarios d'usage qu'on n'a pas prévu.
+
+### Mise à jour du système "en live"
+
+LuneOS est basé sur un système de "paquets", tout à fait comme une distribution Linux classique. Il est donc naturel de vouloir profiter de cela pour mettre à jour le système. Avec Yocto c'est quasiment gratuit, car le versioning des paquets est déjà complètement intégré au systeme de build. Par contre, de notre côté, il nous faudra établir des règles strictes pour la sortie de nouveaux paquets, et trouver la bonne méthode pour appliquer ces mises à jour.
 
