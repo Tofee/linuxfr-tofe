@@ -121,7 +121,7 @@ Notons aussi qu'on ne lance pas l'IA sur un problème à l'aveugle, on essaie de
 
 L'utilisation de l'IA peut rebuter des contributeurs comme des utilisateurs, par exemple pour des raisons éthiques et environnementales. Personnellement, fin 2025 je pensais que LuneOS était terminé, nous n'étions plus assez nombreux et avec le retrait de LG il fallait maintenir bien plus de composants qu'avant. Donc si vous voulez installer ce que LuneOS aurait été en 2026 sans l'IA, c'est simple: il suffit d'installer la version de 2025. L'arrivée de l'IA a permis de redonner une chance au projet, même si on doit encore voir sur le moyen terme ce que ça va donner.
 
-## Ce qui nous attends ensuite
+## Ce qui nous attend ensuite
 
 ### Montée en puissance des machines de build
 
