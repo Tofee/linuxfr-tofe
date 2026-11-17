@@ -58,9 +58,19 @@ Fort de ce succès, on (enfin, surtout celui qui utilise l'IA) va s'attaquer au 
 * Pile multimédia complètement remaniée, pour utiliser les profils PulseAudio et le composant audiod-pro de webOS OSE
 * Gestion du fingerprint (via un driver Android)
 * Gestion des caméras, en photo comme en vidéo
+* Gestion de l'eSIM
 * etc
 
 Au bout de quelques mois, on commence à voir le bout du tunnel, et la plupart des problèmes connus sont corrigés. Il est temps de se recentrer sur l'aspect logiciel.
+
+### De nouveaux serveurs pour nos builds
+
+Cette année nous avons postulé à plusieurs offres de "bourses", qui se présentent sous la forme de serveurs pour la compilation de LuneOS. Et par chance, la réponse a été positive pour l'Université de l'Etat de l'Oregon (Oregon State University Open Source Lab) ! La mise à disposition du serveur est encore en cours, mais nous ainsi des machines plus confortables pour effectuer nos compilations, qui peuvent être très exigeantes. Merci à eux pour leur soutien !
+
+### Un nouveau téléphone de test
+
+Nous avons également été en contact avec l'entreprise Brax, qui commercialise des smartphones orientés vie privée et logiciels libres. Ils sont livrés avec LineageOS préinstallé et proposent quelques. 
+Brax nous a envoyé gracieusement un exemplaire de leur Brax3, afin qu'on puisse porter et tester LuneOS dessus. Ce téléphone n'est pas parfait (noyau linux 5.5 maison, puce Mediatek moins bien documenté qu'un Quelcom), mais cela nous permet d'essayer LuneOS sur un smartphone assez récent.
 
 ## Renaissance d'un webOS disparu
 
@@ -81,16 +91,20 @@ Tout cela est géré à travers un framework unifié, et des applications "Photo
 
 webOS, c'est aussi une identité visuelle, et une ergonomie souvent bien pensée. Ainsi on a pu se rapprocher un peu plus des visuels d'origine, tout en gardant à l'esprit les contraintes modernes (SVG pour du HiDPI, shaders pour économiser le CPU, plus de personnalisation pour s'adapter à chaque cible matérielle...).
 
+Pour les plus nostalgiques, nous avons aussi changé le clavier virtuel par défaut pour nous rapprocher du clavier du Palm Pre:
+
+<img width="360" height="229" alt="image" src="https://github.com/user-attachments/assets/cc27448f-999d-4e9b-b6ea-574cebf28df0" />
+
 ## L'heure du bilan
 
 ### Contributions upstream
 
 Autant que possible, si on voit qu'une de nos corrections ou améliorations pourrait intéresser le projet parent, on va essayer de leur proposer ça. Nous avons déjà plusieurs corrections ou améliorations dans libpurple qui ont pu être remontées, de même pour des projets comme Mer ou Waydroid. Nous avons testé ces changements en condition réelle, donc une première passe a déjà été faite. 
 
-### L'éléphant dans le couloir
+### La baleine sous le caillou
 
-Le LuneOS de 2026 est maintenant un projet où l'IA a changé beaucoup de choses, en bien comme en mal. On a pu corriger énormément de problèmes et rajouter beaucoup de fonctionnalités, mais cela s'est fait au prix d'une complexification du code. Mais le code de LuneOS était déjà vaste avant 2026, et les contributions étant faites par quelqu'un connaissant très bien le projet, les changements apportés s'intègre encore assez bien dans l'existant.
+Le LuneOS de 2026 est maintenant un projet où l'IA a changé beaucoup de choses, en bien comme en mal. On a pu corriger énormément de problèmes et rajouter beaucoup de fonctionnalités, par contre cela s'est fait au prix d'une complexification du code. Mais le code de LuneOS était déjà vaste avant 2026, et les contributions étant faites par quelqu'un connaissant très bien le projet, les changements apportés s'intègre encore assez bien dans l'existant.
 
-L'utilisation de l'IA pourrait aussi rebuter des contributeurs comme des utilisateurs, par exemple pour des raisons éthiques et environnementales. Personnellement, fin 2025 je pensais que LuneOS était terminé, nous n'étions plus assez nombreux et il fallait maintenir bien plus de composants qu'avant. Donc si vous voulez installer ce que LuneOS aurait été sans l'IA, c'est simple: il suffit d'installer la version de 2025. L'arrivée de l'IA a permis de redonner une chance au projet, même si on doit encore voir sur le moyen terme ce que ça va donner.
+L'utilisation de l'IA peut rebuter des contributeurs comme des utilisateurs, par exemple pour des raisons éthiques et environnementales. Personnellement, fin 2025 je pensais que LuneOS était terminé, nous n'étions plus assez nombreux et avec le retrait de LG il fallait maintenir bien plus de composants qu'avant. Donc si vous voulez installer ce que LuneOS aurait été en 2026 sans l'IA, c'est simple: il suffit d'installer la version de 2025. L'arrivée de l'IA a permis de redonner une chance au projet, même si on doit encore voir sur le moyen terme ce que ça va donner.
 
 
