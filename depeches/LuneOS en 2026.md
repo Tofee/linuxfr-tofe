@@ -29,6 +29,7 @@ Nous avons donc regardé l'embryon de linux mainline existant droit dans les yeu
 
 Pendant des mois, votre serviteur (un peu masochiste sur les bords) a tenté de comprendre les vieux hacks du linux 3.4 pour les transcrire en noeuds du Device Tree sur un linux récent. Pour l'aspect graphique, on a obtenu des résultats plutôt probants, même s'il restait pas mal d'artefacts visuels.
 
+Pour illustrer ça, voici un exemple de rendu de l'écran d'accueil sur la HP Touchpad à cette époque: 
 <img width="460" height="340" alt="LuneOS_Touchpad_mainline_20241101" src="https://github.com/user-attachments/assets/e91b7ec1-b36f-4af5-a8f1-05a8689e0bb3" />
 
 Cependant ce petit succès cachait une grande bataille perdue: le touchscreen refusait de se laisser dompter. Allez, voici quelques détails pour vous donner un aperçu de la bataille:
